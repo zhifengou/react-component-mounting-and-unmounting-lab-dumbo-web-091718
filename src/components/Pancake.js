@@ -27,13 +27,13 @@ class Pancake extends React.Component {
     });
   };
 
-  startInterval = () => {
-    this.interval = setInterval(this.updateCounter, 1000);
-  };
+  // startInterval = () => {
+  //   this.interval = setInterval(this.updateCounter, 1000);
+  // };
 
-  cleanUpInterval = () => {
-    clearInterval(this.interval);
-  };
+  // cleanUpInterval = () => {
+  //   clearInterval(this.interval);
+  // };
 
   flip = () => {
     this.setState({
